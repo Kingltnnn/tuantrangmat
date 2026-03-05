@@ -85,7 +85,7 @@ export const locationsData: Location[] = [
     name: 'Hải sản Phương Lan',
     category: 'Ăn uống',
     description: 'Quán hải sản lâu đời và nổi tiếng nhất Nhơn Lý. Hải sản tươi sống được đánh bắt trong ngày, chế biến đậm đà.',
-    images: ['/1D0A4394 2.webp'],
+    images: ['/1D0A4394_2.webp'],
     address: 'Thôn Lý Lương, Xã Nhơn Lý, TP. Quy Nhơn',
     mapLink: 'https://maps.app.goo.gl/uLa2MkP4k7dL6kiv9'
   },
@@ -112,7 +112,7 @@ export const locationsData: Location[] = [
     name: 'Bánh xèo mực Nhơn Lý',
     category: 'Ăn uống',
     description: 'Món ăn đặc sản dân dã nhưng cực kỳ gây nghiện. Mực tươi rói được đổ cùng bột bánh xèo giòn rụm.',
-    images: ['/1D0A4394 2.webp'],
+    images: ['/1D0A4394_2.webp'],
     address: 'Chợ Nhơn Lý, Xã Nhơn Lý, TP. Quy Nhơn',
     tips: 'Nên ăn vào buổi sáng hoặc xế chiều.'
   },
@@ -139,7 +139,7 @@ export const locationsData: Location[] = [
     name: 'Hải sản Hương Biển',
     category: 'Ăn uống',
     description: 'Quán ăn sát biển Nhơn Hải, hải sản được nuôi trong lồng bè, khách có thể chọn trực tiếp để chế biến.',
-    images: ['/1D0A4394 2.webp'],
+    images: ['/1D0A4394_2.webp'],
     address: 'Bờ kè Nhơn Hải, Xã Nhơn Hải, TP. Quy Nhơn',
     mapLink: 'https://maps.app.goo.gl/sGt2XgvRQA4fzt6E8'
   },
@@ -157,7 +157,7 @@ export const locationsData: Location[] = [
     name: 'Ốc Nhơn Hải',
     category: 'Ăn uống',
     description: 'Các loại ốc biển lạ mắt và ngon miệng như ốc nón, ốc vú nàng, ốc nhảy được chế biến đơn giản để giữ vị ngọt.',
-    images: ['/1D0A4394 2.webp'],
+    images: ['/1D0A4394_2.webp'],
     address: 'Khu vực chợ Nhơn Hải, TP. Quy Nhơn'
   },
   {

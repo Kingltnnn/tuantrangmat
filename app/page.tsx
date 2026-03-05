@@ -13,7 +13,7 @@ type Tab = 'overview' | 'itinerary' | 'expenses' | 'settings' | 'locations';
 const TAB_BACKGROUNDS: Record<Tab, string> = {
   overview: '/1D0A3821.webp',
   itinerary: '/1D0A4340.webp',
-  expenses: '/1D0A4394 2.webp',
+  expenses: '/1D0A4394_2.webp',
   settings: '/1D0A4487.webp',
   locations: '/1D0A4340.webp',
 };
@@ -38,7 +38,7 @@ export default function Home() {
               activeTab === tab ? 'opacity-40' : 'opacity-0'
             }`}
             style={{ 
-              backgroundImage: `url('${src.replace(/ /g, '%20')}')`,
+              backgroundImage: `url('${src}')`,
               filter: 'blur(8px) brightness(0.9)',
               transform: 'scale(1.1)',
             }}
