@@ -166,12 +166,10 @@ export default function LocationsView() {
             <div className="w-full max-w-md space-y-4 overflow-y-auto max-h-[80vh] scrollbar-hide">
               {selectedImages.map((img, idx) => (
                 <div key={idx} className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden shadow-2xl">
-                  <Image
+                  <img
                     src={img}
                     alt="Location"
-                    fill
-                    className="object-cover"
-                    referrerPolicy="no-referrer"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               ))}
