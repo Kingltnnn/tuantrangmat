@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   return (
-    <main className="h-screen flex flex-col relative overflow-hidden bg-slate-50">
+    <main className="h-screen-safe flex flex-col relative overflow-hidden bg-slate-50">
       {/* Background Image Layer */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         {Object.entries(TAB_BACKGROUNDS).map(([tab, src]) => (
@@ -58,7 +58,7 @@ export default function Home() {
       </div>
 
       {/* Bottom Navigation */}
-      <nav className="flex-none bg-white/80 backdrop-blur-md border-t border-slate-200 pb-safe pt-2 px-4 z-50">
+      <nav className="flex-none bg-white/90 backdrop-blur-md border-t border-slate-200 pb-[calc(env(safe-area-inset-bottom)+8px)] pt-2 px-4 z-50">
         <div className="flex justify-between items-center max-w-md mx-auto h-16">
           <button
             onClick={() => setActiveTab('overview')}

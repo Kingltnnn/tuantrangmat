@@ -9,3 +9,15 @@
     scrollbar-width: none;
   }
 }
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@utility pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+
+@utility h-screen-safe {
+  height: 100dvh;
+}
