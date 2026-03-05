@@ -1,0 +1,5 @@
+{
+  "name": "Nam & An Honeymoon",
+  "description": "Ứng dụng lịch trình và quản lý chi tiêu tuần trăng mật",
+  "requestFramePermissions": ["geolocation", "notifications"]
+}
